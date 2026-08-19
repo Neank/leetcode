@@ -23,5 +23,10 @@ class Solution(object):
             else:
                 return index
         return -1
+    '''总结
+    定义左右闭区间[left, right]，在区间上用二分法搜索目标值，
+    不断收缩区间，直到左右区间不符合定义的left <= right，搜素
+    结束，未找到跳出循环
+    '''
 # @lc code=end
 
