@@ -5,6 +5,10 @@
 #
 
 # @lc code=start
+'''
+维护一个存放数值和下表的map，每次遍历数组去map里找目标值
+如果找到则返回结果，如果找不到向map中添加当前元素
+'''
 class Solution(object):
     def twoSum(self, nums, target):
         """
