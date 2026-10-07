@@ -5,7 +5,7 @@
 #
 
 # @lc code=start
-from collections import deque
+from collections import deque # 用双端队列模拟单调队列
 
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
